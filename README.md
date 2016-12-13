@@ -1,4 +1,4 @@
-# `clifun`: wrapper function of funny `UNIX` command
+# `clifun`: wrapper functions of funny `UNIX` commands
 
 
 ![](clifun.png)
