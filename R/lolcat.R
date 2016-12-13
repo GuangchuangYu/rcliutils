@@ -7,7 +7,14 @@
 ##' @return characters
 ##' @author guangchuang yu
 lolcat <- function(msg) {
-    res <- system(paste0("echo '",paste(msg, collapse="\n"), "'|lolcat"), intern=TRUE)
+    if (grepl("'", msg)) {
+        msg <- gsub("'", "\"", msg)
+    } else if (grepl('"', msg)) {
+        msg <- gsub('"', '\"', msg)
+    }
+
+    cmd <- paste0("echo \'", paste(msg, collapse="\n"), "'|lolcat")
+    res <- system(cmd, intern=TRUE)
     res <- paste(res, collapse="\n")
     class(res) <- "lolcat"
     return(res)
