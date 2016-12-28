@@ -6,7 +6,7 @@
 
 ```r
 ## install.packages("devtools")
-devtools::install_github("GuangchuangYu/emojifont")
+devtools::install_github("GuangchuangYu/clifun")
 ```
 
 
