@@ -2,10 +2,10 @@
 % Please edit documentation in R/figlet.R, R/lolcat.R
 \docType{methods}
 \name{show}
-\alias{figlet-class}
-\alias{lolcat-class}
 \alias{show}
+\alias{figlet-class}
 \alias{show,figlet-method}
+\alias{lolcat-class}
 \alias{show,lolcat-method}
 \title{show method}
 \usage{
@@ -21,7 +21,4 @@ message
 }
 \description{
 show method for figlet instance
-
-show method for lolcat instance
 }
-

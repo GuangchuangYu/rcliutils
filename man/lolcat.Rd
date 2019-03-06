@@ -21,4 +21,3 @@ should have lolcat installed (pip install lolcat)
 \author{
 guangchuang yu
 }
-
