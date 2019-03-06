@@ -14,16 +14,18 @@ devtools::install_github("GuangchuangYu/clifun")
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
-School of Public Health, The University of Hong Kong
+School of Basic Medical Sciences, Southern Medical University
 
 
 ## System Requirement
 
 + figlet: <http://www.figlet.org/>
 + lolcat: <https://pypi.python.org/pypi/lolcat> or <https://github.com/tehmaze/lolcat>
-
++ ydict: <https://github.com/TimothyYe/ydict>
 
 ## Usage and examples
 
-![](clifun.png)
+![](figures/clifun.png)
+
+![](figures/ydict.png)
 
