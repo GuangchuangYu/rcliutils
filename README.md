@@ -1,4 +1,6 @@
-# `clifun`: wrapper functions of funny `UNIX` commands
+# `rcliutils`: wrapper functions of commands and utilities for r-term
+
+`rcliutils` (previously known as `clifun`).
 
 
 ## Installation
@@ -6,7 +8,7 @@
 
 ```r
 ## install.packages("devtools")
-devtools::install_github("GuangchuangYu/clifun")
+devtools::install_github("GuangchuangYu/rcliutils")
 ```
 
 
@@ -29,3 +31,4 @@ School of Basic Medical Sciences, Southern Medical University
 
 ![](figures/ydict.png)
 
+![](figures/r-clear.gif)
