@@ -15,6 +15,9 @@ formatted outpuut queried from youdao
 \description{
 translate English to Chinese and Chinese to English, using youdao dictionary
 }
+\references{
+\url{https://github.com/TimothyYe/ydict}
+}
 \author{
 Guangchuang Yu
 }
