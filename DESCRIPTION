@@ -1,10 +1,10 @@
-Package: clifun
+Package: rcliutils
 Title: Funny stuff in command line
 Version: 0.0.1
 Authors@R: person("Guangchuang", "Yu", email = "guangchuangyu@gmail.com", role = c("aut", "cre"))
 Description: Funny stuff in UNIX command line, currently include 'figlet' and 'lolcat'.
 Depends:
-    R (>= 3.3.2)
+    R (>= 3.4.0)
 Imports:
     methods
 License: Artistic-2.0
